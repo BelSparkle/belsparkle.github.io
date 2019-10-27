@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 oct. 2019, 16:52:42
+    Author     : bel
+*/
+/*color principal: #764593*/
+    
+body{
+    background-image: url("img/flower.jpg");
+    blackground-size: 100% 30cm;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+   
+header{
+    width: 100%;
+    height: 2cm;
+}
+
+header h1{
+    /* Voy a definirlo como 'header h1' porque aunque no 
+tenga más h1 en HTML así sé que esto aplica sólo a los h1
+dentro del header y no a cualquiera*/
+    color: #764593;
+    font-family:"Helvetica";
+    text-align: center;
+    font-size: xx-large;
+}
+
+header h2{
+    color: black;
+    font-family: "Helvetica";
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+}
+
+nav{
+    width: 100%;
+    height: 22px;
+    background-color:gainsboro;
+    
+}
+
+nav ul{
+   list-style: none;
+
+}
+
+nav ul li{
+    float: left;
+    text-align: center;
+    width: 25%;
+    font-family:"Helvetica";
+    
+}
+.botonmenu{
+    display: block;
+    color:#764593;
+    text-align: center;
+
+}
+
+aside{
+   float: right;
+   width: 29%;
+   
+}
+
+aside ul li a{
+    
+     font-family:"Helvetica";
+     
+}
+
+#recetas, #acercade{
+    float: left;
+    width: 70%;
+    background-color: #3A7A8F0A;
+}
+   
+section h1{
+    color:#764593;
+    font-family: "Helvetica";
+    font-size:large;
+}
+    
+footer {
+    clear: both;
+    color:#764593;
+    font-family: "Helvetica";
+    font-size:small;
+    text-align: center;
+    background-color: #3A7A8F0A;   
+}
+@media screen and (max-width:770px){
+    #recetas, #acercade{
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+   nav ul li{
+    clear:both;
+   }
+}
