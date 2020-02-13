@@ -1,0 +1,165 @@
+body{
+}
+#principal{
+    width:992px;
+    margin:auto;
+}   
+
+header{
+
+    border-bottom-color: coral;
+    border-bottom-style: solid;
+    border-bottom-width:10px;
+    height:150px;
+}
+
+#logo{
+    float:left;
+   
+}
+
+#descripcion{
+    float:left;
+    padding-top:70px;
+    padding-left:50px;
+    border-left-color: grey;
+    border-left-style:solid;
+    border-left-width: 3px;
+    margin-left:50px;
+    
+}
+
+#telefono{
+        float:right;
+        padding-top:65px;
+}
+
+nav ul{
+   list-style: none;
+}
+
+.menu{
+    float:left;
+    background-color:grey;
+    display:block;
+    width:17%;
+    /* height:400px Quito el height porque con padding ya le doy altura*/ 
+    text-align:center;
+    margin-right:10px;
+    padding-top:300px;
+}
+
+nav{
+    clear:both; /*Pongo clear:both para que el float no interfiera y corte entre el header y nav*/
+    
+    
+}
+
+ul{
+    width: 100%;
+    
+}
+
+ul h3{
+    font-family: 'Arial';
+    color:white;
+    font-weight:blod;   
+}
+
+#izquierda{
+    float: left;
+    width: 25%
+    clear: both;
+}
+
+section{
+    float:left;
+    width:25%;
+}
+
+#derecha{
+    float:left;
+    width:400px;
+    height:400px;
+    
+}
+
+.p2{
+    font-family: 'Arial';
+    color:coral;
+    font-weight: bold;
+}
+
+
+
+#email:hover{
+    color:coral;
+   
+    
+}
+
+.articulo{
+   
+    margin-left:15px;
+    
+    
+}
+
+.divizq {
+    clear:both; /*corta la flotación en el izquierdo que porque es el que primero sale*/
+    float:left;
+    background-color:coral;
+    width:24%;
+    text-align:center;
+    margin-bottom:10px; /*asi he separado los divizq del articulo*/
+    margin-top:10px;
+    color:white;
+    
+    
+    
+    
+}
+
+.divder{
+    text-align:center;
+    padding-top:10px;
+   
+    
+    
+}
+/*
+#noticias{
+    background-color: pink;
+} 
+*/
+
+.cuadritos{
+    color:coral;
+    text-align:center;
+    border:1px solid grey;
+    display: block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    float: left;
+    
+    
+    
+    
+    
+}
+
+#izquierda, #noticas, #derecha{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+footer{
+    
+    color:white;
+    padding-left:50px;
+    padding-top:35px;
+    background-color: coral;
+    height: 60px;
+    clear:both;
+   
+}

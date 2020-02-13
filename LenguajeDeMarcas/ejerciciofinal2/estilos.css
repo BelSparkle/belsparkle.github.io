@@ -1,0 +1,208 @@
+#principal{
+    width:992px;
+    margin:auto;
+    background-color:#FFE4B5;
+}
+
+#encabezado{
+    background-color: white;
+    height: 90px;
+    margin-left:40px;
+    margin-right:40px;
+    font-size:14px;
+
+}
+.spanencabezado{
+    float:left;
+    margin-left:30px;
+    padding-top:25px
+  
+}
+#telf{
+    padding-top:10px;
+}
+
+#ulcabecera {
+    display: inline;
+    
+}
+
+.listacabecera{
+    list-style:none;
+    float:left;
+    display:block;
+    margin-left:30px;
+    margin-top:25px;
+    border-right:1px solid black;
+    padding-right: 12px;
+    
+    
+}
+#logo{
+    padding-top:20px;
+    padding-left:50px;
+}
+
+nav ul{
+    list-style:none;
+   
+}
+nav{
+   background-color:white;
+   height: 45px;
+   margin-left:40px;
+   margin-right:40px;
+   border-bottom: 7px solid palevioletred;
+}
+
+.menu{
+    float:left;
+    display:block; /* DISPLAY BLOCK PARA CREAR UN BLOQUE EN LAS LISTAS */
+    margin-left: 7px;
+    text-align:center;
+    padding-top: 10px;
+    
+}
+#secundario{
+    background-color:white;
+    margin-left:40px;
+    margin-right:40px;
+    height: 1020px;
+}
+
+#sectionprincipal{
+ 
+    padding-top:10px;
+    padding-left: 20px;
+    float:left;
+    width: 48%;
+    padding-bottom:10px;
+    
+    
+    
+}
+#sectionprincipal article{
+       background-color: mistyrose;
+       padding-left:15px;
+       padding-top:15px;
+       padding-bottom:15px;
+       
+       
+}
+#imagensectionprincipal{
+    float:right;
+    background-color: #f6f6f6;
+    width: 46%;
+    padding-top:25px;
+    padding-left:30px;
+    height: 311px;
+   
+    
+}
+
+#relacionados{
+    clear:both;
+    background-color: white;
+    height: 300px;
+}
+
+.articulosrelacionados{
+    float:left;
+    width: 20%;
+    margin-left:30px;
+    padding-bottom: 20px;
+    
+       
+    
+}
+
+.articulosrelacionados span{
+    font-size:20px;
+    color:palevioletred;
+    font-weight: bold;
+    margin-right: 5px;
+  
+}
+
+.articulosrelacionados button{
+    color:white;  
+    background-color: palevioletred;
+    
+    
+}
+
+#suscripcion{
+    background-color: white;
+}
+
+#oferta{
+    clear:both;
+    float:left;
+    padding-left: 20px;
+    
+}
+
+aside{
+    float:left;
+    background-color: white;
+    height: 331px;
+    width: 42%;
+    padding-left: 28px;
+    
+   
+}
+aside > h3{
+    color:palevioletred;
+}
+
+aside > h1 {
+    color:grey;
+}
+
+aside > p {
+    color:grey;
+    font-size:15px;
+}
+
+.piedepagina{
+    float:left;
+    color:white;
+    font-size:13px;
+    padding-left: 22px;
+    padding-right: 10px;
+    border-right:2px solid white;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right: 10px;
+    
+}
+
+button:hover{
+    background-color:darksalmon;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover{
+    color:darksalmon;
+}
+
+#formasdepago{
+    list-style:none;
+}
+
+
+footer{
+    clear:both;
+    background-color: slategray;
+    height: 180px;
+    margin-left:40px;
+    margin-right:40px;
+    
+    
+   
+    
+    
+}
