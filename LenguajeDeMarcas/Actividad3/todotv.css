@@ -1,0 +1,216 @@
+body {
+  background-color: #121212;
+}
+#contenedor{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+#cabecera {
+  width: 100%;
+  background-color: #75D307;
+  height: 100px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+ 
+}
+
+.imagen{
+  width: 200px;
+  height: 100px;
+  flex:1;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+#cabecera h1 {
+    flex:1;
+    color: #121212;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #121212;
+    display:flex;
+    height: 40%;
+    flex:5;
+}
+
+.nav a {
+    color: #80FA01;
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex:1;
+    text-decoration: none;
+  }
+
+  .nav a:hover {
+    background-color: #75D307;
+    color: #1f1f1f;
+    border: 1px solid #1f1f1f;
+  }
+
+  .nav i, .icono {
+    display: none !important;
+  }
+
+#promociones {
+  width: 100%;
+  height: 400px;
+  background-color: #1f1f1f;
+  color: #80FA01;
+}
+#promociones iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.seccion {
+  width: 90%;
+  margin-top: 1%;
+  padding-top: 0.5%;
+  border-radius: 0.5%;
+  padding-bottom: 0.5%;
+  background-color: 404040;
+  color:#80FA01;
+  border: 1px #80FA01 solid;
+
+}
+
+.seccion h5{
+  display: inline;
+}
+
+button {
+  background-color:#80FA01 ;
+}
+
+.padreitems {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 1%;;
+}
+
+.itemseccion {
+  min-width: 90px;
+  flex:1;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  border: 1px solid #80FA01;
+  
+
+}
+
+.itemseccion img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figure{
+  margin:0;
+}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+
+}
+
+#piepagina{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #75D307;
+    margin-top: 1%;
+}
+
+.pie{
+    width: 20%;
+    height:90%;
+    border: 1px solid #121212;
+}
+
+
+
+/*móviles vertical*/
+@media screen and (min-width: 576px) and (max-width:700px){
+  .itemseccion {
+    min-width: 30%;
+  }
+
+}
+/*móviles horizontal*/
+@media screen and (min-width: 700px){
+  .itemseccion {
+    min-width: 30%;
+  }
+
+}
+
+/*tablets*/
+@media screen and (min-width: 701px) and (max-width: 768px){
+  .itemseccion{
+    min-width: 15%;
+  }
+
+}
+
+
+/*desktop*/
+@media screen and (min-width: 992px) and (max-width:1199px){
+  .itemseccion{
+    min-width: 12%;
+  }
+}
+
+/*large desktop*/
+@media screen and (min-width:1200px){
+    .itemseccion{
+      min-width: 2%;
+    }
+} 
+
+
+
+/* Esta parte ha sido un fracaso absoluto, he tratado de reproducirlo de w3School copiando tal cual el
+javascrip y cambiándolo por mi class e id e intentando usar flex en vez de float, pero ha sido más bien
+una prueba/error*/
+
+@media screen and (max-width: 600px) {
+    .nav a {
+        display: none;
+        text-align: right;
+    }
+    .nav a.icono{
+      float: right;
+      display: block !important;
+      
+    }
+    .nav i {
+        display: block !important;
+    }
+    .nav {
+        flex:0.25;
+    }
+   
+  }
+  
+
